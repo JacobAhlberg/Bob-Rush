@@ -104,11 +104,9 @@
 				4944125E24ED57CE0092429F /* AppDelegate.swift */,
 				4944126024ED57CE0092429F /* GameScene.sks */,
 				4944126224ED57CE0092429F /* Actions.sks */,
-				4944126424ED57CE0092429F /* GameScene.swift */,
-				4944126624ED57CE0092429F /* GameViewController.swift */,
-				4944126824ED57CE0092429F /* Main.storyboard */,
-				4944126B24ED57D00092429F /* Assets.xcassets */,
-				4944126D24ED57D00092429F /* Info.plist */,
+				4944129124ED5AE00092429F /* Scenes */,
+				4944129024ED5AD10092429F /* ViewControllers */,
+				4944128F24ED5AC30092429F /* Resources */,
 			);
 			path = "Bob Rush";
 			sourceTree = "<group>";
@@ -129,6 +127,32 @@
 				4944128324ED57D00092429F /* Info.plist */,
 			);
 			path = "Bob RushUITests";
+			sourceTree = "<group>";
+		};
+		4944128F24ED5AC30092429F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4944126824ED57CE0092429F /* Main.storyboard */,
+				4944126B24ED57D00092429F /* Assets.xcassets */,
+				4944126D24ED57D00092429F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4944129024ED5AD10092429F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4944126624ED57CE0092429F /* GameViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4944129124ED5AE00092429F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4944126424ED57CE0092429F /* GameScene.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,7 +458,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S8TY89ZL5Q;
-				INFOPLIST_FILE = "Bob Rush/Info.plist";
+				INFOPLIST_FILE = "Bob Rush/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,7 +477,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S8TY89ZL5Q;
-				INFOPLIST_FILE = "Bob Rush/Info.plist";
+				INFOPLIST_FILE = "Bob Rush/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
